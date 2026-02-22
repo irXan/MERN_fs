@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // let name = "Aptech"
+        // console.log(name.split(""))
+        // console.log(name.split("").reverse().join(""))
+
+        const arr = [1,2,3,4,5,6]
+        console.log(arr)
+
+        // const search = arr.filter((i) => i>=4);
+        // console.log(search)
+
+        arr.forEach((item) => {
+            console.log(item * 2)
+        })
+
+        const data = arr.map((item) => {
+            return item * 2
+        })
+        console.log("Data:", data)
+
+        sum(10,20)
+        function sum(a, b) {
+            console.log(a + b)
+        }
+
+        // <!--Fat Arrow Function--!>
+        
+            const add = (a,b) => console.log("Arrow Function:", a + b)
+            add(20,30)
+        
+    </script>
+</body>
+</html>
